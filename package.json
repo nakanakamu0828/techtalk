@@ -1,0 +1,17 @@
+{
+  "name": "techtalk",
+  "version": "1.0.0",
+  "description": "TeckTalk Blog",
+  "author": "yuuki.nakamura.0828@gmail.com",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^0.4.0"
+  },
+  "dependencies": {
+    "vue-tweet-embed": "^2.1.1"
+  }
+}
