@@ -22,12 +22,29 @@ module.exports = {
                 '',
               ],
             '/diary/': [
-              '',
+              ''
             ],
             '/about/': [
               '',
               ['profile', 'Profile']
+            ],
+            '/tags/': [
+                ['docker', 'Docker'],
+                ['ruby', 'Ruby'],
+                ['rubyonrails', 'RubyOnRails'],
+                ['vue', 'Vue'],
+                ['vuepress', 'VuePress'],
+                ['sorcery', 'Sorcery'],
             ]
           }
+    },
+    markdown: {
+        config: md => {
+          md.use(require('markdown-it-hashtag'))
+          md.renderer.rules.hashtag_open  = (tokens, idx) => {
+            const tagName = tokens[idx].content.toLowerCase();
+            return '<a href="/tags/' + tagName + '.html" class="tag">';
+          }
+        }
     }
 }
