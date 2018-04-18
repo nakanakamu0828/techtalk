@@ -7,9 +7,20 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 ## 2017/04/18
 
+### AWSについて
+
+#aws, #EC2
+
+【参考記事メモ】  
+* [【小ネタ】Amazon LinuxのT2とM5のコストがそんなに変わらないことに気づきました](https://dev.classmethod.jp/cloud/t2_m5_instance_cost/)
+
+
+
 ### VuePressについて
 
 #vue, #vuepress
+
+以下の情報を元に学習する。
 
 #### VuePress公式
 <https://vuepress.vuejs.org/>
