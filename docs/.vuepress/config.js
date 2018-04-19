@@ -29,7 +29,10 @@ module.exports = {
               ['profile', 'Profile']
             ],
             '/tags/': [
+                ['aws', 'AWS'],
                 ['docker', 'Docker'],
+                ['ec2', 'EC2'],
+                ['kaminari', 'Kaminari'],
                 ['ruby', 'Ruby'],
                 ['rubyonrails', 'RubyOnRails'],
                 ['vue', 'Vue'],

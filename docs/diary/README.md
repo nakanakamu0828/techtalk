@@ -20,7 +20,7 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 久しぶりにkaminariでページング処理を実装してみる
 
-#### Sorceryの公式Github
+#### Kaminariの公式Github
 <https://github.com/kaminari/kaminari>
 
 
