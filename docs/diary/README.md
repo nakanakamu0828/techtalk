@@ -7,6 +7,77 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 ## 2017/04/18
 
+### Let's Encryptで無料SSL体験
+
+【参考記事メモ】  
+* [無料SSL / TLSサーバー証明書「Let’s Encrypt」を知っていますか？](https://liginc.co.jp/373838)
+* [無料のSSL証明書Let’s EncryptをCentOS6.5に導入する方法](https://www.s-oj.com/ec-business/system/lets-encrypt-centos6-5/)
+* [CentOS 7(さくらVPS) + ApacheにLet's Encryptの無料SSL導入](https://qiita.com/Ayame/items/42d9fcac64085bacbb73)
+
+### Railsでkaminari！
+
+#ruby, #RubyOnRails, #kaminari
+
+久しぶりにkaminariでページング処理を実装してみる
+
+#### Sorceryの公式Github
+<https://github.com/kaminari/kaminari>
+
+
+#### kaminariインストール
+```ruby
+# Gemfile
+gem 'kaminary'
+```
+
+```command
+$ bundle install
+$ # 設定ファイルを作成
+$ rails g kaminari:config
+```
+
+```ruby
+# config/initializers/kaminari_config.rb
+Kaminari.configure do |config|
+  config.default_per_page = 25
+  # config.max_per_page = nil
+  # config.window = 4
+  # config.outer_window = 0
+  # config.left = 0
+  # config.right = 0
+  # config.page_method_name = :page
+  # config.param_name = :page
+  # config.params_on_first_page = false
+end
+```
+
+#### Viewテンプレート作成
+```command
+$ # default
+$ rails g kaminari:views bulma
+$ # bootstrap4
+$ rails g kaminari:views bootstrap4
+$ # bulma
+$ rails g kaminari:views bulma
+```
+
+<https://github.com/amatsuda/kaminari_themes> 
+
+ここにテーマがあります。
+
+
+#### Controller
+```ruby
+@users = User.order(:name).page params[:page]
+```
+
+#### View(Paging)
+```html
+<%= paginate @users %>
+```
+
+
+
 ### AWSについて
 
 #aws, #EC2
@@ -65,14 +136,14 @@ https://github.com/Sorcery/sorcery
 #### sorcery初期化（おさらい）
 おさらいになりますが、sorceryの初期設定は以下のコマンドになります。
 既にUserモデル作成で実行済みなので管理ユーザーを作成する際はスキップします。
-```sh
+```shell
 $ rails generate sorcery:install
 ```
 
 #### Staffモデル作成
 Staffモデルは`rails g　model Staff`で通常のモデル作成と同じやり方をする
 
-```sh
+```shell
 $ rails g　model Staff
 ```
 
@@ -119,7 +190,7 @@ end
 
 #### マイグレーション
 
-```sh
+```shell
 $ rails db:migrate
 ```
 
