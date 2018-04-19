@@ -33,6 +33,7 @@ module.exports = {
                 ['docker', 'Docker'],
                 ['ec2', 'EC2'],
                 ['kaminari', 'Kaminari'],
+                ['nodejs', 'Node.js'],
                 ['ruby', 'Ruby'],
                 ['rubyonrails', 'RubyOnRails'],
                 ['vue', 'Vue'],
