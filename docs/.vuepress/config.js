@@ -1,6 +1,13 @@
 module.exports = {
     title: 'TechTalk.',
     description: '世界を旅して暮らしたい放浪エンジニア日誌',
+    locales: {
+        '/': {
+          lang: 'ja',
+          title: 'TechTalk.',
+          description: '世界を旅して暮らしたい放浪エンジニア日誌'
+        }
+    },
     meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' }
@@ -9,9 +16,11 @@ module.exports = {
         ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
     ],
     port: 9999,
+    ga: 'UA-113488529-3',
     base: '/',
     serviceWorker: true,
     themeConfig: {
+        repo: 'nakanakamu0828/techtalk',
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Blog', link: '/blog/' },
