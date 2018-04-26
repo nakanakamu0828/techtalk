@@ -8,6 +8,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
     ],
+    port: 9999,
     base: '/',
     serviceWorker: true,
     themeConfig: {
@@ -22,7 +23,15 @@ module.exports = {
                 '',
               ],
             '/diary/': [
-              ''
+                '',
+                ['2018-04-26', '2018/04/26'],
+                ['2018-04-25', '2018/04/25'],
+                ['2018-04-24', '2018/04/24'],
+                ['2018-04-23', '2018/04/23'],
+                ['2018-04-20', '2018/04/20'],
+                ['2018-04-19', '2018/04/19'],
+                ['2018-04-18', '2018/04/18'],
+                ['2018-04-17', '2018/04/17'],
             ],
             '/about/': [
               '',
@@ -47,7 +56,10 @@ module.exports = {
           md.use(require('markdown-it-hashtag'))
           md.renderer.rules.hashtag_open  = (tokens, idx) => {
             const tagName = tokens[idx].content.toLowerCase();
-            return '<a href="/tags/' + tagName + '.html" class="tag">';
+            return '<router-link to="/tags/' + tagName + '.html"class="tag">';
+          }
+          md.renderer.rules.hashtag_close = () => {
+            return '</router-link>';
           }
         }
     }
