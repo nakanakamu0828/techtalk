@@ -10,10 +10,12 @@ module.exports = {
     },
     meta: [
         { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'theme-color', content: '#3eaf7c' }
     ],
     head: [
         ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+        ['link', { rel: 'manifest', href: '/manifest.json' }],
     ],
     port: 9999,
     ga: 'UA-113488529-3',
@@ -33,6 +35,7 @@ module.exports = {
               ],
             '/diary/': [
                 '',
+                ['2018-04-27', '2018/04/27'],
                 ['2018-04-26', '2018/04/26'],
                 ['2018-04-25', '2018/04/25'],
                 ['2018-04-24', '2018/04/24'],
@@ -50,8 +53,13 @@ module.exports = {
                 ['aws', 'AWS'],
                 ['docker', 'Docker'],
                 ['ec2', 'EC2'],
+                ['infra', 'Infra'],
                 ['kaminari', 'Kaminari'],
+                ['laravel', 'Laravel'],
                 ['nodejs', 'Node.js'],
+                ['npm', 'NPM'],
+                ['nuxtjs', 'Nuxt.js'],
+                ['php', 'PHP'],
                 ['ruby', 'Ruby'],
                 ['rubyonrails', 'RubyOnRails'],
                 ['vue', 'Vue'],
