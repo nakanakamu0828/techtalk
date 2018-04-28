@@ -8,15 +8,15 @@ footer: Copyright © 2018 nakanakamu0828
 ## Daily Archive
 日々の作業の技術メモのアーカイブ。日毎に内容をまとめています。
 
-* <router-link to="/diary/2018-04-27.html"><b>Tech Diary</b> &gt; 2017/04/27</router-link>
-* <router-link to="/diary/2018-04-26.html"><b>Tech Diary</b> &gt; 2017/04/26</router-link>
-* <router-link to="/diary/2018-04-25.html"><b>Tech Diary</b> &gt; 2017/04/25</router-link>
-* <router-link to="/diary/2018-04-24.html"><b>Tech Diary</b> &gt; 2017/04/24</router-link>
-* <router-link to="/diary/2018-04-23.html"><b>Tech Diary</b> &gt; 2017/04/23</router-link>
-* <router-link to="/diary/2018-04-20.html"><b>Tech Diary</b> &gt; 2017/04/20</router-link>
-* <router-link to="/diary/2018-04-19.html"><b>Tech Diary</b> &gt; 2017/04/19</router-link>
-* <router-link to="/diary/2018-04-18.html"><b>Tech Diary</b> &gt; 2017/04/18</router-link>
-* <router-link to="/diary/2018-04-17.html"><b>Tech Diary</b> &gt; 2017/04/17</router-link>
-
+* [<b>Tech Diary</b> &gt; 2017/04/28](/diary/2018-04-28.html)
+* [<b>Tech Diary</b> &gt; 2017/04/27](/diary/2018-04-27.html)
+* [<b>Tech Diary</b> &gt; 2017/04/26](/diary/2018-04-26.html)
+* [<b>Tech Diary</b> &gt; 2017/04/25](/diary/2018-04-25.html)
+* [<b>Tech Diary</b> &gt; 2017/04/24](/diary/2018-04-24.html)
+* [<b>Tech Diary</b> &gt; 2017/04/23](/diary/2018-04-23.html)
+* [<b>Tech Diary</b> &gt; 2017/04/20](/diary/2018-04-20.html)
+* [<b>Tech Diary</b> &gt; 2017/04/19](/diary/2018-04-19.html)
+* [<b>Tech Diary</b> &gt; 2017/04/18](/diary/2018-04-18.html)
+* [<b>Tech Diary</b> &gt; 2017/04/17](/diary/2018-04-17.html)
 
 

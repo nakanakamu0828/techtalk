@@ -2,8 +2,9 @@
 footer: Copyright © 2018 nakanakamu0828
 ---
 # Infra
-OSやネットワークなどインフラ関連の投稿場所
+#aws #docker #ec2 #shell  
 
+OSやネットワークなどインフラ関連の投稿場所
 
 ## 関連投稿
 * [<b>Tech Diary</b> &gt; 2017/04/23 &gt; Sakuraクラウドに環境を構築する](/diary/2018-04-23.html#sakura%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%81%AB%E7%92%B0%E5%A2%83%E3%82%92%E6%A7%8B%E7%AF%89%E3%81%99%E3%82%8B)
@@ -15,6 +16,3 @@ OSやネットワークなどインフラ関連の投稿場所
 * [<b>Tech Diary</b> &gt; 2017/04/18 &gt; Let’s Encryptで無料SSL体験](/diary/2018-04-18.html#let%E2%80%99s-encrypt%E3%81%A7%E7%84%A1%E6%96%99ssl%E4%BD%93%E9%A8%93)
 * [<b>Tech Diary</b> &gt; 2017/04/18 &gt; AWSについて](/diary/#aws%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 * [<b>Tech Diary</b> &gt; 2017/04/17 &gt; Dockerについて](/diary/2018-04-17.html#docker%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
-
-## 関連技術
-#aws, #docker, #ec2, #shell

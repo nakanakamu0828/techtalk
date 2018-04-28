@@ -2,6 +2,7 @@
 footer: Copyright © 2018 nakanakamu0828
 ---
 # Laravel
+#php
 ## 公式サイト
 [https://laravel.com/](https://laravel.com/)
 
@@ -13,6 +14,3 @@ footer: Copyright © 2018 nakanakamu0828
 * [<b>Tech Diary</b> &gt; 2017/04/25 &gt; Laravelメモ](/diary/2018-04-25.html#laravel%E3%83%A1%E3%83%A2)
 * [<b>Tech Diary</b> &gt; 2017/04/24 &gt; Laravelメモ](/diary/2018-04-24.html#laravel%E3%83%A1%E3%83%A2)
 * [<b>Tech Diary</b> &gt; 2017/04/20 &gt; Laravelメモ](/diary/2018-04-20.html#laravel%E3%83%A1%E3%83%A2)
-
-## 関連技術
-#php

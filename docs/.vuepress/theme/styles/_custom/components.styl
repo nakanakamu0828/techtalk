@@ -17,6 +17,9 @@
     &:nth-of-type(n+2)
       margin-left: 1rem
 
+// 
+// Columns
+// 
 .columns
   margin-bottom 1rem
   display: -webkit-flex
@@ -24,6 +27,29 @@
   flex-wrap: wrap
   & > .column.is-4
     width: 33%
+
+// 
+// tag
+// 
+.tag
+  align-items: center
+  background-color: whitesmoke
+  border-radius: 3px
+  color: #4a4a4a
+  display: inline-flex
+  font-size: 0.75rem
+  height: 2em
+  justify-content: center
+  line-height: 1.5
+  padding-left: 0.75em
+  padding-right: 0.75em
+  white-space: nowrap
+  &.is-outline
+    border: solid 1px #363636
+  &.is-rounded
+    border-radius: 290486px
+  & + .tag
+    margin-left: .2rem;
 
 @media (max-width: $MQMobile)
   .columns > .column

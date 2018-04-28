@@ -35,6 +35,7 @@ module.exports = {
               ],
             '/diary/': [
                 '',
+                ['2018-04-28', '2018/04/28'],
                 ['2018-04-27', '2018/04/27'],
                 ['2018-04-26', '2018/04/26'],
                 ['2018-04-25', '2018/04/25'],
@@ -73,7 +74,7 @@ module.exports = {
           md.use(require('markdown-it-hashtag'))
           md.renderer.rules.hashtag_open  = (tokens, idx) => {
             const tagName = tokens[idx].content.toLowerCase();
-            return '<router-link to="/tags/' + tagName + '.html"class="tag">';
+            return '<router-link to="/tags/' + tagName + '.html"class="tag is-outline is-rounded">';
           }
           md.renderer.rules.hashtag_close = () => {
             return '</router-link>';
