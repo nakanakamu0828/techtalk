@@ -1,3 +1,6 @@
+---
+footer: Copyright © 2018 nakanakamu0828
+---
 # Vue
 
 ## 関連投稿

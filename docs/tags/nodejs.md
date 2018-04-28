@@ -1,3 +1,6 @@
+---
+footer: Copyright © 2018 nakanakamu0828
+---
 # Node.js
 
 >Node.js® は、Chrome の V8 JavaScript エンジン で動作する JavaScript 環境です。

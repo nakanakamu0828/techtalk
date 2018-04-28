@@ -1,3 +1,6 @@
+---
+footer: Copyright © 2018 nakanakamu0828
+---
 # PHP
 ## 公式サイト
 [http://www.php.net/](http://www.php.net/)

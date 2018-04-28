@@ -1,3 +1,6 @@
+---
+footer: Copyright © 2018 nakanakamu0828
+---
 # SAKURA
 さくらインターネットが提供しているホスティングやVPSなどインフラ関連サービスの総称
 

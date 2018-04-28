@@ -1,3 +1,6 @@
+---
+footer: Copyright © 2018 nakanakamu0828
+---
 # Sorcery
 「Sorcery」はRuby On Railsでユーザー認証機能を提供するgemです。  
 ユーザー認証の代表格「devise」と異なり、認証に必要なサービスロジックのみを「Sorcery」は提供しています。

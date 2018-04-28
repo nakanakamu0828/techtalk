@@ -1,0 +1,30 @@
+// 
+// Image
+// 
+.image
+  &.is-circle
+    img
+      border-radius: 50%
+
+
+// 
+// Box
+// 
+.box
+  & > p
+    display inline-block
+    vertical-align middle
+    &:nth-of-type(n+2)
+      margin-left: 1rem
+
+.columns
+  margin-bottom 1rem
+  display: -webkit-flex
+  display: flex
+  flex-wrap: wrap
+  & > .column.is-4
+    width: 33%
+
+@media (max-width: $MQMobile)
+  .columns > .column
+    width: 100% !important

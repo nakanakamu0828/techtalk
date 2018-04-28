@@ -1,5 +1,5 @@
 ---
-footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: Copyright © 2018 nakanakamu0828
 ---
 
 # About Me

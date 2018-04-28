@@ -1,4 +1,6 @@
-
+---
+footer: Copyright © 2018 nakanakamu0828
+---
 ## はじめに
 
 香港に住んでいるWEBエンジニアの**なかむ**です。

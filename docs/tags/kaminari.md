@@ -1,3 +1,6 @@
+---
+footer: Copyright © 2018 nakanakamu0828
+---
 # Kaminari
 
 「Kaminari」はRuby On Railsでページング機能を提供するgemです。  

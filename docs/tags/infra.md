@@ -1,3 +1,6 @@
+---
+footer: Copyright © 2018 nakanakamu0828
+---
 # Infra
 OSやネットワークなどインフラ関連の投稿場所
 

@@ -1,3 +1,6 @@
+---
+footer: Copyright © 2018 nakanakamu0828
+---
 # Ruby On Rails
 ## 公式サイト
 <http://rubyonrails.org/>

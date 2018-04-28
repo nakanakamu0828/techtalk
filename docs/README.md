@@ -9,7 +9,16 @@ features:
   details: 日々の開発を日誌として投稿します。  ブログのように技術をまとめたものではなく、ポエムであったり技術メモを蓄積していくものです。
 - title: About Me
   details: 筆者のプロフィール/経験の紹介ページ
-footer: Copyright © 2018-present nakanakamu0828
+# blogTitle: 新着投稿
+# blogText: ブログをもっと見る
+# blogLink: /blog/
+# blogs:
+# - image: 
+#   title: タイトルタイトルタイトルタイトルタイトル
+#   description: タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+#   link: /aaa.html
+#   date: 2018/04/28
+footer: Copyright © 2018 @nakanakamu0828
 ---
 
 <TwitterTimeline/>

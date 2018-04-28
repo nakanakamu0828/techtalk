@@ -1,3 +1,6 @@
+---
+footer: Copyright © 2018 nakanakamu0828
+---
 # Laravel
 ## 公式サイト
 [https://laravel.com/](https://laravel.com/)

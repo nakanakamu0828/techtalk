@@ -1,3 +1,6 @@
+---
+footer: Copyright © 2018 nakanakamu0828
+---
 # npm
 
 >npmの正式名称は、Node Package Managerです。

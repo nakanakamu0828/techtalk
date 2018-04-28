@@ -1,6 +1,7 @@
 ---
 title: 'Tech Dialy'
 description: 'このページは技術メモのまとめです。TechTalk. では日々の開発を個人メモとして残しています。将来に向けて技術ノウハウを蓄積することを目的とします。'
+footer: Copyright © 2018 nakanakamu0828
 ---
 
 # Tech Diary
