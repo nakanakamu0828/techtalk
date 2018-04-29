@@ -3,7 +3,7 @@
         <router-link :to="item.link" class="card-img" :style="imageStyle">
             <div class="date">
                 <div class="month">{{ item.date | moment("MMM") }}</div>
-                <div class="day">{{ item.date | moment("d") }}</div>
+                <div class="day">{{ item.date | moment("Do") }}</div>
             </div>
         </router-link>
         <div class="card-content">

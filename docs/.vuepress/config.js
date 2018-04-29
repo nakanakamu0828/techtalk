@@ -32,6 +32,7 @@ module.exports = {
         sidebar: {
             '/blog/': [
                 '',
+                ['2018-04-28-start_vupress', 'VuePressを始める']
               ],
             '/diary/': [
                 '',

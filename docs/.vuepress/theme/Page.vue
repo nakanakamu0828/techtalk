@@ -1,5 +1,20 @@
 <template>
   <div class="page">
+
+    <!-- Blog Page Template -->
+    <div class="content" v-if="data.blogs && data.blogs.length">
+      <h1>{{ data.blogTitle }}</h1>
+      <div class="columns">
+        <div class="column is-6" v-for="blog in data.blogs">
+          <Card :item="blog" />
+        </div>
+      </div>
+      <p class="action" style="text-align: center;" v-if="data.blogText && data.blogLink">
+        <NavLink class="action-button" :item="blogLink"/>
+      </p>
+    </div>
+    <!-- Blog Page Template -->
+
     <Content :custom="false"/>
     <div class="content edit-link" v-if="editLink">
       <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
@@ -27,11 +42,12 @@
 </template>
 
 <script>
+import Card from '../components/Card.vue'
 import OutboundLink from './OutboundLink.vue'
 import { resolvePage, normalize, outboundRE, endingSlashRE } from './util'
 
 export default {
-  components: { OutboundLink },
+  components: { OutboundLink, Card },
   props: ['sidebarItems'],
   computed: {
     data () {
