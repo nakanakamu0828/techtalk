@@ -8,6 +8,8 @@ footer: Copyright © 2018 nakanakamu0828
 ## Daily Archive
 日々の作業の技術メモのアーカイブ。日毎に内容をまとめています。
 
+* [<b>Tech Diary</b> &gt; 2017/04/30](/diary/2018-04-30.html)
+* [<b>Tech Diary</b> &gt; 2017/04/29](/diary/2018-04-29.html)
 * [<b>Tech Diary</b> &gt; 2017/04/28](/diary/2018-04-28.html)
 * [<b>Tech Diary</b> &gt; 2017/04/27](/diary/2018-04-27.html)
 * [<b>Tech Diary</b> &gt; 2017/04/26](/diary/2018-04-26.html)

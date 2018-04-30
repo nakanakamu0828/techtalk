@@ -51,6 +51,8 @@ export default {
   display: block;
   height: 12rem;
   position: relative;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 .card-img .date {
     position: absolute;

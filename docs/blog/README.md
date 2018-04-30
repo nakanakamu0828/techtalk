@@ -11,3 +11,5 @@ blogs:
 
 footer: Copyright © 2018 nakanakamu0828
 ---
+
+# Blog

@@ -1,11 +1,11 @@
 <template>
   <div class="page">
+    <Content :custom="false"/>
 
     <!-- Blog Page Template -->
-    <div class="content" v-if="data.blogs && data.blogs.length">
-      <h1>{{ data.blogTitle }}</h1>
+    <div class="content blogs" v-if="data.blogs && data.blogs.length">
       <div class="columns">
-        <div class="column is-6" v-for="blog in data.blogs">
+        <div class="column is-4" v-for="blog in data.blogs">
           <Card :item="blog" />
         </div>
       </div>
@@ -15,7 +15,6 @@
     </div>
     <!-- Blog Page Template -->
 
-    <Content :custom="false"/>
     <div class="content edit-link" v-if="editLink">
       <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
       <OutboundLink/>
