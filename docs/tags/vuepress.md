@@ -2,7 +2,7 @@
 footer: Copyright © 2018 nakanakamu0828
 ---
 # VuePress
-#Nodejs #vue
+#javascript #Nodejs #vue
 
 ## VuePress公式
 [https://vuepress.vuejs.org/](https://vuepress.vuejs.org/)
