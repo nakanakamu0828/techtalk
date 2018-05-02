@@ -67,6 +67,9 @@ body
     border-radius 4px
   img
     max-width 100%
+  &.content-box
+   > *:first-child
+    margin-top -2.5rem
 
 .content.custom
   padding 0
@@ -172,6 +175,28 @@ th, td
       h1, h2, h3, h4, h5, h6
         margin-top 1.5rem
         padding-top 0
+
+.content-box
+  padding: 20px
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: horizontal
+  -webkit-box-direction: normal
+  -webkit-flex-direction: row
+  -ms-flex-direction: row
+  flex-direction: row
+  -webkit-flex-wrap: wrap
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  -webkit-box-align: stretch
+  -webkit-align-items: stretch
+  -ms-flex-align: stretch
+  align-items: stretch
+  & > h1, h2, h3, h4, h5
+    width: 100%
+    padding-top: 0 !important
 
 @media (min-width: ($MQMobile + 1px))
   .theme-container.no-sidebar

@@ -1,20 +1,10 @@
 <template>
   <div class="page">
     <Content :custom="false"/>
-
-    <!-- Blog Page Template -->
-    <div class="content blogs" v-if="data.blogs && data.blogs.length">
-      <div class="columns">
-        <div class="column is-4" v-for="blog in data.blogs">
-          <Card :item="blog" />
-        </div>
-      </div>
-      <p class="action" style="text-align: center;" v-if="data.blogText && data.blogLink">
-        <NavLink class="action-button" :item="blogLink"/>
-      </p>
+    <div class="content content-box" v-if="data.blogs && data.blogs.length">
+      <h2 v-if="data.postTitle">{{ data.postTitle }}</h2>
+      <Post :item="post" v-for="post in data.blogs"/>
     </div>
-    <!-- Blog Page Template -->
-
     <div class="content edit-link" v-if="editLink">
       <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
       <OutboundLink/>
