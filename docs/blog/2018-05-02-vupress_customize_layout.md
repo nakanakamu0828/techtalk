@@ -4,6 +4,17 @@ meta:
     content: VuePressのレイアウトを独自のものにカスタマイズしたい場合の手順を簡単にまとめます
   - name: keywords
     content: vue vuepress
+  - name: twitter:card
+    content: photo
+  - name: twitter:url
+    content: '/blog/2018-05-02-vupress_customize_layout.html'
+  - name: twitter:title
+    content: VuePressのレイアウトをカスタマイズ
+  - name: twitter:description
+    content: VuePressのレイアウトを独自のものにカスタマイズしたい場合の手順を簡単にまとめます
+  - name: twitter:image:src
+    content: '/uploads/screen_vuepress_site.png'
+    
 date: '2018/05/02 13:00'
 image: '/uploads/screen_vuepress_site.png'
 footer: Copyright © 2018 nakanakamu0828
