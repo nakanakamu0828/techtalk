@@ -5,7 +5,7 @@ meta:
   - name: keywords
     content: vue vuepress
   - name: twitter:card
-    content: photo
+    content: summary
   - name: twitter:url
     content: '/blog/2018-05-02-vupress_customize_layout.html'
   - name: twitter:title
