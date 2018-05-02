@@ -4,10 +4,20 @@ meta:
     content: VuePressのレイアウトを独自のものにカスタマイズしたい場合の手順を簡単にまとめます
   - name: keywords
     content: vue vuepress
+
+  - name: og:url
+    content: 'https://techtalk.ml/blog/2018-05-02-vupress_customize_layout.html'
+  - name: og:title
+    content: VuePressのレイアウトをカスタマイズ
+  - name: og:description
+    content: VuePressのレイアウトを独自のものにカスタマイズしたい場合の手順を簡単にまとめます
+  - name: twitter:image
+    content: 'https://techtalk.ml/uploads/screen_vuepress_site.png'
+
   - name: twitter:card
     content: summary
   - name: twitter:url
-    content: '/blog/2018-05-02-vupress_customize_layout.html'
+    content: 'https://techtalk.ml/blog/2018-05-02-vupress_customize_layout.html'
   - name: twitter:title
     content: VuePressのレイアウトをカスタマイズ
   - name: twitter:description
@@ -19,6 +29,7 @@ meta:
     
 date: '2018/05/02 13:00'
 image: '/uploads/screen_vuepress_site.png'
+
 footer: Copyright © 2018 nakanakamu0828
 ---
 # VuePressのレイアウトをカスタマイズ

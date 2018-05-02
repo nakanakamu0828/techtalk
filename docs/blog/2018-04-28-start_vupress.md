@@ -1,8 +1,35 @@
 ---
-title: 'VuePressを始める | TechTalk.'
-description: '本ブログはVuePressを利用しています。ブログ構築の際に参考にしたサイトなど参考文献としてまとめます'
+meta:
+  - name: description
+    content: 本ブログはVuePressを利用しています。ブログ構築の際に参考にしたサイトなど参考文献としてまとめます
+  - name: keywords
+    content: vue vuepress
+
+  - name: og:url
+    content: 'https://techtalk.ml/blog/2018-05-02-vupress_customize_layout.html'
+  - name: og:title
+    content: VuePressを始める
+  - name: og:description
+    content: 本ブログはVuePressを利用しています。ブログ構築の際に参考にしたサイトなど参考文献としてまとめます
+  - name: twitter:image
+    content: 'https://techtalk.ml/uploads/screen_vuepress_site.png'
+
+  - name: twitter:card
+    content: summary
+  - name: twitter:url
+    content: 'https://techtalk.ml/blog/2018-05-02-vupress_customize_layout.html'
+  - name: twitter:title
+    content: VuePressを始める
+  - name: twitter:description
+    content: 本ブログはVuePressを利用しています。ブログ構築の際に参考にしたサイトなど参考文献としてまとめます
+  - name: twitter:image
+    content: 'https://techtalk.ml/uploads/screen_vuepress_site.png'
+  - name: twitter:creator
+    content: '@nakanakamu0828'
+
 date: '2018/04/28 23:00'
 image: '/uploads/screen_vuepress_site.png'
+
 footer: Copyright © 2018 nakanakamu0828
 ---
 # VuePressを始める
