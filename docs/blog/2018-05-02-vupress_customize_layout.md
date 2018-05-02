@@ -13,7 +13,7 @@ meta:
   - name: twitter:description
     content: VuePressのレイアウトを独自のものにカスタマイズしたい場合の手順を簡単にまとめます
   - name: twitter:image
-    content: 'https://techtalk.ml/uploads/screen_vuepress_site.png'
+    content: '/uploads/screen_vuepress_site.png?v=1'
   - name: twitter:creator
     content: '@nakanakamu0828'
     
