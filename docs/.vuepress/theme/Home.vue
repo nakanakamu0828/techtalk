@@ -1,35 +1,42 @@
 <template>
-  <div class="home">
-    <div class="hero">
-      <img v-if="data.heroImage" :src="$withBase(data.heroImage)" alt="hero">
-      <h1>{{ data.heroText || $title || 'Hello' }}</h1>
-      <p class="description">
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
-      </p>
-      <p class="action" v-if="data.actionText && data.actionLink">
-        <NavLink class="action-button" :item="actionLink"/>
-      </p>
-    </div>
-    <div class="features" v-if="data.features && data.features.length">
-      <div class="feature" v-for="feature in data.features">
-        <h2>{{ feature.title }}</h2>
-        <p>{{ feature.details }}</p>
+  <div>
+    <div class="home">
+      <div class="hero">
+        <img v-if="data.heroImage" :src="$withBase(data.heroImage)" alt="hero">
+        <h1>{{ data.heroText || $title || 'Hello' }}</h1>
+        <p class="description">
+          {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+        </p>
+        <p class="action" v-if="data.actionText && data.actionLink">
+          <NavLink class="action-button" :item="actionLink"/>
+        </p>
       </div>
-    </div>
-    <div v-if="data.blogs && data.blogs.length">
-      <h2>{{ data.blogTitle }}</h2>
-      <div class="columns">
-        <div class="column is-4" v-for="blog in data.blogs">
-          <Card :item="blog" />
+      <div class="features" v-if="data.features && data.features.length">
+        <div class="feature" v-for="feature in data.features">
+          <h2>{{ feature.title }}</h2>
+          <p>{{ feature.details }}</p>
         </div>
       </div>
-      <p class="action" style="text-align: center;" v-if="data.blogText && data.blogLink">
-        <NavLink class="action-button" :item="blogLink"/>
-      </p>
+      <div v-if="data.blogs && data.blogs.length">
+        <h2>{{ data.blogTitle }}</h2>
+        <div class="columns">
+          <div class="column is-4" v-for="blog in data.blogs">
+            <Card :item="blog" />
+          </div>
+        </div>
+        <p class="action" style="text-align: center;" v-if="data.blogText && data.blogLink">
+          <NavLink class="action-button" :item="blogLink"/>
+        </p>
+      </div>
+      <Content custom/>
     </div>
-    <Content custom/>
     <div class="footer" v-if="data.footer">
       {{ data.footer }}
+      <p class="sns">
+        <a v-if="data.githubUrl" :href="data.githubUrl" target="_blank" class="button is-circle"><i class="fab fa-github"></i></a>
+        <a v-if="data.twitterUrl" :href="data.twitterUrl" target="_blank" class="button is-circle"><i class="fab fa-twitter"></i></a>
+        <a v-if="data.email" :href="`mailto:${data.email}`" target="_blank" class="button is-circle"><i class="far fa-envelope"></i></a>
+      </p>
     </div>
   </div>
 </template>
@@ -117,11 +124,16 @@ export default {
       color lighten($textColor, 10%)
     p
       color lighten($textColor, 25%)
-  .footer
-    padding 2.5rem
-    border-top 1px solid $borderColor
-    text-align center
-    color lighten($textColor, 25%)
+.footer
+  padding 2.5rem
+  border-top 1px solid $borderColor
+  text-align center
+  color lighten($textColor, 25%)
+  .sns
+    margin-top: 2rem
+    margin-bottom 0
+    & > a
+      margin 0 .4rem
 
 @media (max-width: $MQMobile)
   .home

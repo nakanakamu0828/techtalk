@@ -27,6 +27,10 @@ blogs:
   date: 2018/04/28
 
 footer: Copyright © 2018 @nakanakamu0828
+
+githubUrl: https://github.com/nakanakamu0828/techtalk
+twitterUrl: https://twitter.com/nakanakamu0828
+email: yuuki.nakamura.0828@gmail.com
 ---
 
 <TwitterTimeline/>

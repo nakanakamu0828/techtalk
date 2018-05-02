@@ -51,7 +51,24 @@
   &.is-rounded
     border-radius: 290486px
   & + .tag
-    margin-left: .2rem;
+    margin-left: .2rem
+
+// 
+// Button
+// 
+.button
+    display: inline-flex
+    border-radius: .3rem
+    padding: 0.8rem
+    text-align: center
+    background-color: $textColor
+    border-color: $textColor
+    color: #fff
+    &:hover
+      background-color: lighten($textColor, 10%)
+    &.is-circle
+      border-radius: 10rem;
+
 
 @media (max-width: $MQMobile)
   .columns > .column
