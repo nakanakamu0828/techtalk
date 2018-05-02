@@ -1,5 +1,6 @@
 ---
 home: true
+description: 世界を旅して暮らしたい放浪エンジニア日誌
 actionText: To Blog →
 actionLink: /blog/
 features:

@@ -1,11 +1,8 @@
 module.exports = {
     title: 'TechTalk.',
-    description: '世界を旅して暮らしたい放浪エンジニア日誌',
     locales: {
         '/': {
-          lang: 'ja',
-          title: 'TechTalk.',
-          description: '世界を旅して暮らしたい放浪エンジニア日誌'
+          lang: 'ja'
         }
     },
     meta: [
@@ -32,6 +29,7 @@ module.exports = {
         sidebar: {
             '/blog/': [
                 '',
+                ['2018-05-02-vupress_customize_layout', 'VuePressのレイアウトをカスタマイズ'],
                 ['2018-04-28-start_vupress', 'VuePressを始める']
               ],
             '/diary/': [
