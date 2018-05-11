@@ -12,6 +12,11 @@ blogs:
   link: /blog/2018-04-28-start_vupress.html
   date: 2018/04/28
 
+diaryTitle: 関連日誌
+diaries:
+- link: /diary/#vuepress%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+  title: <b>Tech Diary</b> &gt; 2017/04/18 &gt; VuePressについて
+
 footer: Copyright © 2018 nakanakamu0828
 ---
 # VuePress
@@ -26,7 +31,3 @@ footer: Copyright © 2018 nakanakamu0828
 ## VuePress参考動画  
 
 <YoutubeEmbed videoId="XoReHBlSXqI"></YoutubeEmbed>
-
-## 関連投稿
-* [<b>Tech Diary</b> &gt; 2017/04/18 &gt; VuePressについて](/diary/#vuepress%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
-

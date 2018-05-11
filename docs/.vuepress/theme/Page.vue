@@ -5,6 +5,14 @@
       <h2 v-if="data.postTitle">{{ data.postTitle }}</h2>
       <Post :item="post" v-for="post in data.blogs"/>
     </div>
+    <div class="content content-box" v-if="data.diaries && data.diaries.length">
+      <h2 v-if="data.diaryTitle">{{ data.diaryTitle }}</h2>
+      <ul>
+        <li v-for="item in data.diaries">
+          <router-link :to="item.link" v-html="item.title"></router-link>
+        </li>
+      </ul>
+    </div>
     <div class="content edit-link" v-if="editLink">
       <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
       <OutboundLink/>
@@ -31,12 +39,12 @@
 </template>
 
 <script>
-import Card from '../components/Card.vue'
+import Post from '../components/Post.vue'
 import OutboundLink from './OutboundLink.vue'
 import { resolvePage, normalize, outboundRE, endingSlashRE } from './util'
 
 export default {
-  components: { OutboundLink, Card },
+  components: { OutboundLink, Post },
   props: ['sidebarItems'],
   computed: {
     data () {

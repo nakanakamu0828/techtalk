@@ -1,4 +1,9 @@
 ---
+diaryTitle: 関連日誌
+diaries:
+- link: /diary/2018-04-26.html#%E9%80%A3%E7%95%AA%E3%81%AE%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B
+  title: <b>Tech Diary</b> &gt; 2017/04/26 &gt; 連番のディレクトリを作成する
+
 footer: Copyright © 2018 nakanakamu0828
 ---
 # Shell(シェル)
@@ -7,7 +12,3 @@ footer: Copyright © 2018 nakanakamu0828
 
 ## wikipedia
 [https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%A7%E3%83%AB](https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%A7%E3%83%AB)
-
-
-## 関連投稿
-* [<b>Tech Diary</b> &gt; 2017/04/26 &gt; 連番のディレクトリを作成する](/diary/2018-04-26.html#%E9%80%A3%E7%95%AA%E3%81%AE%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B)
