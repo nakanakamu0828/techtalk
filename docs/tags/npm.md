@@ -1,4 +1,32 @@
 ---
+meta:
+  - name: description
+    content: 本ブログのnpm情報に関するまとめページです。
+  - name: keywords
+    content: nodejs npm
+
+  - name: og:url
+    content: 'https://techtalk.ml/tags/nodejs.html'
+  - name: og:title
+    content: NPM情報まとめ
+  - name: og:description
+    content: 本ブログのnpm情報に関するまとめページです。
+  # - name: og:image
+  #   content: ''
+
+  - name: twitter:card
+    content: summary
+  - name: twitter:url
+    content: 'https://techtalk.ml/tags/nodejs.html'
+  - name: twitter:title
+    content: NPM情報まとめ
+  - name: twitter:description
+    content: 本ブログのnpm情報に関するまとめページです。
+  # - name: twitter:image
+  #   content: ''
+  - name: twitter:creator
+    content: '@nakanakamu0828'
+
 diaryTitle: 関連日誌
 diaries:
 - link: /diary/2018-04-26.html#npm%E3%83%A1%E3%83%A2

@@ -1,4 +1,32 @@
 ---
+meta:
+  - name: description
+    content: 本ブログのjavascriptに関するまとめページです。
+  - name: keywords
+    content: javascript js
+
+  - name: og:url
+    content: 'https://techtalk.ml/tags/javascript.html'
+  - name: og:title
+    content: javascrip情報まとめ
+  - name: og:description
+    content: 本ブログのjavascriptに関するまとめページです。
+  # - name: og:image
+  #   content: ''
+
+  - name: twitter:card
+    content: summary
+  - name: twitter:url
+    content: 'https://techtalk.ml/tags/javascript.html'
+  - name: twitter:title
+    content: javascrip情報まとめ
+  - name: twitter:description
+    content: 本ブログのjavascriptに関するまとめページです。
+  # - name: twitter:image
+  #   content: ''
+  - name: twitter:creator
+    content: '@nakanakamu0828'
+
 diaryTitle: 関連日誌
 diaries:
 - link: /diary/2018-05-03.html#sweetalert

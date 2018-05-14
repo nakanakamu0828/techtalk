@@ -11,7 +11,7 @@ meta:
     content: VuePressを始める
   - name: og:description
     content: 本ブログはVuePressを利用しています。ブログ構築の際に参考にしたサイトなど参考文献としてまとめます
-  - name: twitter:image
+  - name: og:image
     content: 'https://techtalk.ml/uploads/screen_vuepress_site.png'
 
   - name: twitter:card

@@ -1,4 +1,32 @@
 ---
+meta:
+  - name: description
+    content: 本ブログのVuePressに関するまとめページです。
+  - name: keywords
+    content: vue vuepress
+
+  - name: og:url
+    content: 'https://techtalk.ml/tags/vuepress.html'
+  - name: og:title
+    content: VuePress情報まとめ
+  - name: og:description
+    content: 本ブログのVuePressに関するまとめページです。
+  # - name: og:image
+  #   content: ''
+
+  - name: twitter:card
+    content: summary
+  - name: twitter:url
+    content: 'https://techtalk.ml/tags/vuepress.html'
+  - name: twitter:title
+    content: VuePress情報まとめ
+  - name: twitter:description
+    content: 本ブログのVuePressに関するまとめページです。
+  # - name: twitter:image
+  #   content: ''
+  - name: twitter:creator
+    content: '@nakanakamu0828'
+
 postTitle: 関連ブログ
 blogs:
 - image: /uploads/screen_vuepress.png

@@ -1,4 +1,32 @@
 ---
+meta:
+  - name: description
+    content: 本ブログのPHP情報に関するまとめページです。
+  - name: keywords
+    content: php
+
+  - name: og:url
+    content: 'https://techtalk.ml/tags/php.html'
+  - name: og:title
+    content: PHP情報まとめ
+  - name: og:description
+    content: 本ブログのPHP情報に関するまとめページです。
+  # - name: og:image
+  #   content: ''
+
+  - name: twitter:card
+    content: summary
+  - name: twitter:url
+    content: 'https://techtalk.ml/tags/php.html'
+  - name: twitter:title
+    content: PHP情報まとめ
+  - name: twitter:description
+    content: 本ブログのPHP情報に関するまとめページです。
+  # - name: twitter:image
+  #   content: ''
+  - name: twitter:creator
+    content: '@nakanakamu0828'
+
 diaryTitle: 関連日誌
 diaries:
 - link: /diary/2018-05-07.html#php%E3%83%A1%E3%83%A2

@@ -11,7 +11,7 @@ meta:
     content: VuePressのレイアウトをカスタマイズ
   - name: og:description
     content: VuePressのレイアウトを独自のものにカスタマイズしたい場合の手順を簡単にまとめます
-  - name: twitter:image
+  - name: og:image
     content: 'https://techtalk.ml/uploads/screen_vuepress_site.png'
 
   - name: twitter:card

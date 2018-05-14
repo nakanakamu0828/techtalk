@@ -1,4 +1,32 @@
 ---
+meta:
+  - name: description
+    content: 本ブログのnginx情報に関するまとめページです。
+  - name: keywords
+    content: nginx
+
+  - name: og:url
+    content: 'https://techtalk.ml/tags/nginx.html'
+  - name: og:title
+    content: nginx情報まとめ
+  - name: og:description
+    content: 本ブログのnginx情報に関するまとめページです。
+  # - name: og:image
+  #   content: ''
+
+  - name: twitter:card
+    content: summary
+  - name: twitter:url
+    content: 'https://techtalk.ml/tags/nginx.html'
+  - name: twitter:title
+    content: nginx情報まとめ
+  - name: twitter:description
+    content: 本ブログのnginx情報に関するまとめページです。
+  # - name: twitter:image
+  #   content: ''
+  - name: twitter:creator
+    content: '@nakanakamu0828'
+
 diaryTitle: 関連日誌
 diaries:
 - link: /diary/2018-05-02.html#nginx%E3%81%A7http%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%92https%E3%81%AB%E3%83%AA%E3%83%80%E3%82%A4%E3%83%AC%E3%82%AF%E3%83%88

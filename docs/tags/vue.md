@@ -1,4 +1,32 @@
 ---
+meta:
+  - name: description
+    content: 本ブログのVue.jsに関するまとめページです。
+  - name: keywords
+    content: vue
+
+  - name: og:url
+    content: 'https://techtalk.ml/tags/vue.html'
+  - name: og:title
+    content: Vue.js情報まとめ
+  - name: og:description
+    content: 本ブログのVue.jsに関するまとめページです。
+  # - name: og:image
+  #   content: ''
+
+  - name: twitter:card
+    content: summary
+  - name: twitter:url
+    content: 'https://techtalk.ml/tags/vue.html'
+  - name: twitter:title
+    content: Vue.js情報まとめ
+  - name: twitter:description
+    content: 本ブログのVue.jsに関するまとめページです。
+  # - name: twitter:image
+  #   content: ''
+  - name: twitter:creator
+    content: '@nakanakamu0828'
+
 postTitle: 関連ブログ
 blogs:
 - image: /uploads/screen_vuepress.png

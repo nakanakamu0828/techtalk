@@ -1,4 +1,32 @@
 ---
+meta:
+  - name: description
+    content: 本ブログのSAKURAに関するまとめページです。
+  - name: keywords
+    content: sakura
+
+  - name: og:url
+    content: 'https://techtalk.ml/tags/sakura.html'
+  - name: og:title
+    content: SAKURA情報まとめ
+  - name: og:description
+    content: 本ブログのSAKURAに関するまとめページです。
+  # - name: og:image
+  #   content: ''
+
+  - name: twitter:card
+    content: summary
+  - name: twitter:url
+    content: 'https://techtalk.ml/tags/sakura.html'
+  - name: twitter:title
+    content: SAKURA情報まとめ
+  - name: twitter:description
+    content: 本ブログのSAKURAに関するまとめページです。
+  # - name: twitter:image
+  #   content: ''
+  - name: twitter:creator
+    content: '@nakanakamu0828'
+
 diaryTitle: 関連日誌
 diaries:
 - link: /diary/2018-05-07.html#sakura%E3%81%AE%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AB%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%82%BD%E3%83%95%E3%83%88%E3%82%92%E5%85%A5%E3%82%8C%E3%82%8B-clamav

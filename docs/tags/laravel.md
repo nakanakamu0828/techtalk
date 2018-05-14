@@ -1,4 +1,32 @@
 ---
+meta:
+  - name: description
+    content: 本ブログのlaravel情報に関するまとめページです。
+  - name: keywords
+    content: php laravel
+
+  - name: og:url
+    content: 'https://techtalk.ml/tags/laravel.html'
+  - name: og:title
+    content: laravel情報まとめ
+  - name: og:description
+    content: 本ブログのlaravel情報に関するまとめページです。
+  # - name: og:image
+  #   content: ''
+
+  - name: twitter:card
+    content: summary
+  - name: twitter:url
+    content: 'https://techtalk.ml/tags/laravel.html'
+  - name: twitter:title
+    content: laravel情報まとめ
+  - name: twitter:description
+    content: 本ブログのlaravel情報に関するまとめページです。
+  # - name: twitter:image
+  #   content: ''
+  - name: twitter:creator
+    content: '@nakanakamu0828'
+
 diaryTitle: 関連日誌
 diaries:
 - link: /diary/2018-05-11.html#laravel-nuxt-%E3%82%92%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%81%AE%E3%81%A7%E3%83%A1%E3%83%A2-part2
