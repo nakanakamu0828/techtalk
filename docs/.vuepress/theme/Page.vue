@@ -3,12 +3,12 @@
     <Content :custom="false"/>
     <div class="content content-box" v-if="data.blogs && data.blogs.length">
       <h2 v-if="data.postTitle">{{ data.postTitle }}</h2>
-      <Post :item="post" v-for="post in data.blogs"/>
+      <Post :item="post" v-for="post in data.blogs" :key="post.link" />
     </div>
     <div class="content content-box" v-if="data.diaries && data.diaries.length">
       <h2 v-if="data.diaryTitle">{{ data.diaryTitle }}</h2>
       <ul>
-        <li v-for="item in data.diaries">
+        <li v-for="item in data.diaries" v-bind:kay="item.link">
           <router-link :to="item.link" v-html="item.title"></router-link>
         </li>
       </ul>

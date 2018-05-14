@@ -39,7 +39,7 @@ footer: Copyright © 2018 nakanakamu0828
 ## はじめに
 おさらいとして、新しいVuePressのPJを作成しましょう。
 
-```sh
+```
 $ mkdir -p custom-layout-vuepress
 $ cd custom-layout-vuepress
 $ npm install -D vuepress
@@ -72,7 +72,7 @@ package.jsonは以下のような形で作成します。
 ```
 
 それでは起動
-```sh
+```
 $ npm run docs:dev
 ```
 
@@ -86,7 +86,7 @@ $ npm run docs:dev
 続いて、`.vuepress/config.js`による設定です。  
 今回は最終的には以下のような設定ファイルにしました。
 
-```sh
+```
 $ mkdir -p docs/.vuepress/
 $ touch docs/.vuepress/config.js
 ```
@@ -144,7 +144,7 @@ VuePress公式サイトの[Custom Themes](https://vuepress.vuejs.org/guide/custo
 
 出力するためのコマンドは以下のようになります。  
 今回は`docs`配下がVuePressのドキュメント構成になります。
-```sh
+```
 $ vuepress eject docs
 ```
 
