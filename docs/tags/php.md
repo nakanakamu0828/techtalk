@@ -29,6 +29,10 @@ meta:
 
 diaryTitle: 関連日誌
 diaries:
+- link: /diary/2018-05-15.html#laravel%E3%81%A7%E7%94%BB%E5%83%8F%E3%82%92%E5%8A%A0%E5%B7%A5%E3%81%99%E3%82%8B
+  title: <b>Tech Diary</b> &gt; 2017/05/15 &gt; Laravelで画像を加工する
+- link: /diary/2018-05-15.html#laravel%E3%81%A7graphql%E3%81%AEapi%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95
+  title: <b>Tech Diary</b> &gt; 2017/05/15 &gt; LaravelでGraphQLのAPIを利用する方法
 - link: /diary/2018-05-07.html#php%E3%83%A1%E3%83%A2
   title: <b>Tech Diary</b> &gt; 2017/05/07 &gt; phpメモ
 - link: /diary/2018-05-05.html#laravel%E3%83%A1%E3%83%A2
