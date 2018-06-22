@@ -29,6 +29,8 @@ meta:
 
 diaryTitle: 関連日誌
 diaries:
+- link: /diary/2018-06-21.html#laravel%E3%81%A7pdf%E5%87%BA%E5%8A%9B%E3%82%92%E3%81%99%E3%82%8B%E9%9A%9B%E3%81%AB%E3%83%BB%E3%83%BB%E3%83%BB
+  title: <b>Tech Diary</b> &gt; 2018/06/21 &gt; LaravelでPDF出力をする際に・・・
 - link: /diary/2018-06-07.html#laravel%E3%81%A7groupby%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E9%9B%86%E8%A8%88%E3%81%99%E3%82%8B
   title: <b>Tech Diary</b> &gt; 2018/06/07 &gt; LaravelでgroupByを使って集計する
 - link: /diary/2018-05-15.html#laravel%E3%81%A7%E7%94%BB%E5%83%8F%E3%82%92%E5%8A%A0%E5%B7%A5%E3%81%99%E3%82%8B
