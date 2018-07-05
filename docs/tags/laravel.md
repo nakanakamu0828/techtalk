@@ -29,6 +29,12 @@ meta:
 
 diaryTitle: 関連日誌
 diaries:
+- link: /diary/2018-07-04.html#laravel%E3%81%A7%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E5%A4%89%E6%9B%B4%E3%82%92%E3%81%99%E3%82%8B%E3%81%AB%E3%81%AF
+  title: <b>Tech Diary</b> &gt; 2018/07/04 &gt; Laravelでメールアドレス変更をするには
+- link: /diary/2018-06-26.html#laravel%E3%81%A7counter-cache%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B
+  title: <b>Tech Diary</b> &gt; 2018/06/26 &gt; Laravelでcounter-cacheを利用する
+- link: /diary/2018-06-26.html#laravel%E3%81%A7%E3%83%95%E3%82%A9%E3%83%AD%E3%83%BC-%E3%83%95%E3%82%A9%E3%83%AD%E3%83%AF%E3%83%BC%E6%A9%9F%E8%83%BD%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B
+  title: <b>Tech Diary</b> &gt; 2018/06/26 &gt; Laravelでフォロー/フォロワー機能を作成する
 - link: /diary/2018-06-21.html#laravel%E3%81%A7pdf%E5%87%BA%E5%8A%9B%E3%82%92%E3%81%99%E3%82%8B%E9%9A%9B%E3%81%AB%E3%83%BB%E3%83%BB%E3%83%BB
   title: <b>Tech Diary</b> &gt; 2018/06/21 &gt; LaravelでPDF出力をする際に・・・
 - link: /diary/2018-06-07.html#laravel%E3%81%A7groupby%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E9%9B%86%E8%A8%88%E3%81%99%E3%82%8B

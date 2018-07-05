@@ -29,6 +29,10 @@ meta:
 
 diaryTitle: 関連日誌
 diaries:
+- link: /diary/2018-07-05.html#datepicker%E3%82%92%E6%8E%A2%E3%81%97%E3%81%A6%E3%81%84%E3%81%A6%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F%E3%80%8Cflatpickr%E3%80%8D
+  title: <b>Tech Diary</b> &gt; 2018/07/05 &gt; datepickerを探していて見つけた「flatpickr」
+- link: /diary/2018-06-29.html#vanilla-js%E3%81%AEmultiplu-select%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA
+  title: <b>Tech Diary</b> &gt; 2017/06/29 &gt; Vanilla JSのmultiplu selectライブラリ
 - link: /diary/2018-06-18.html#pure-js%E3%81%A7%E3%81%AE%E6%B0%97%E3%81%A5%E3%81%8D%EF%BC%81
   title: <b>Tech Diary</b> &gt; 2017/06/18 &gt; Pure JSでの気づき！
 - link: /diary/2018-05-03.html#sweetalert
