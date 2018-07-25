@@ -35,3 +35,4 @@ diaries:
 footer: Copyright © 2018 nakanakamu0828
 ---
 # Android
+#adb 

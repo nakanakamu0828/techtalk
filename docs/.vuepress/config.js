@@ -24,6 +24,7 @@ module.exports = {
             { text: 'Home', link: '/' },
             { text: 'Blog', link: '/blog/' },
             { text: 'Tech Diary', link: '/diary/' },
+            { text: 'Tags', link: '/tags/' },
             { text: 'About', link: '/about/' },
         ],
         sidebar: {
@@ -34,6 +35,8 @@ module.exports = {
               ],
             '/diary/': [
                 '',
+                ['2018-07-25', '2018/07/25'],
+                ['2018-07-08', '2018/07/08'],
                 ['2018-07-06', '2018/07/06'],
                 ['2018-07-05', '2018/07/05'],
                 ['2018-07-04', '2018/07/04'],
@@ -43,29 +46,12 @@ module.exports = {
               ['profile', 'Profile']
             ],
             '/tags/': [
-                ['adb', 'adb'],
                 ['android', 'Android'],
-                ['aws', 'AWS'],
-                ['docker', 'Docker'],
-                ['ec2', 'EC2'],
                 ['git', 'Git'],
                 ['infra', 'Infra'],
                 ['javascript', 'javascript'],
-                ['jquery', 'jquery'],
-                ['kaminari', 'Kaminari'],
-                ['laravel', 'Laravel'],
-                ['nginx', 'nginx'],
-                ['nodejs', 'Node.js'],
-                ['npm', 'NPM'],
-                ['nuxtjs', 'Nuxt.js'],
                 ['php', 'PHP'],
                 ['ruby', 'Ruby'],
-                ['rubyonrails', 'RubyOnRails'],
-                ['sakura', 'Sakura'],
-                ['shell', 'Sell'],
-                ['sorcery', 'Sorcery'],
-                ['vue', 'Vue'],
-                ['vuepress', 'VuePress'],
             ]
           }
     },

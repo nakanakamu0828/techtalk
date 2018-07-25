@@ -45,3 +45,4 @@ diaries:
 footer: Copyright © 2018 nakanakamu0828
 ---
 # javascript
+#jquery #nodejs #npm #nuxtjs #vue #vuepress

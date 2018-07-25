@@ -37,6 +37,6 @@ diaries:
 footer: Copyright © 2018 nakanakamu0828
 ---
 # Ruby
-#rubyOnRails
+#rubyOnRails #kaminari #sorcery
 ## 公式サイト
 [https://www.ruby-lang.org/ja/](https://www.ruby-lang.org/ja/)

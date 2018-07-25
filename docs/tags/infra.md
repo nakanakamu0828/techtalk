@@ -61,6 +61,6 @@ diaries:
 footer: Copyright © 2018 nakanakamu0828
 ---
 # Infra
-#aws #docker #ec2 #shell #sakura
+#aws #docker #ec2 #shell #sakura #sendgrid #circleci
 
 OSやネットワークなどインフラ関連の投稿場所
