@@ -25,7 +25,7 @@ module.exports = {
             { text: 'Blog', link: '/blog/' },
             { text: 'Tech Diary', link: '/diary/' },
             { text: 'Tags', link: '/tags/' },
-            { text: 'About', link: '/about/' },
+            { text: 'About', link: 'https://nakamu.life/' },
         ],
         sidebar: {
             '/blog/': [
@@ -35,15 +35,14 @@ module.exports = {
               ],
             '/diary/': [
                 '',
+                ['2018-07-29', '2018/07/29'],
+                ['2018-07-28', '2018/07/28'],
+                ['2018-07-26', '2018/07/26'],
                 ['2018-07-25', '2018/07/25'],
                 ['2018-07-08', '2018/07/08'],
                 ['2018-07-06', '2018/07/06'],
                 ['2018-07-05', '2018/07/05'],
                 ['2018-07-04', '2018/07/04'],
-            ],
-            '/about/': [
-              '',
-              ['profile', 'Profile']
             ],
             '/tags/': [
                 ['android', 'Android'],

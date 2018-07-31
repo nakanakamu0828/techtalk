@@ -42,8 +42,10 @@ blogs:
   
 diaryTitle: 関連日誌
 diaries:
+- link: /diary/2018-07-26.html#vue-cli-v3%E3%81%AB%E3%81%99%E3%82%8B
+  title: <b>Tech Diary</b> &gt; 2018/07/26 &gt; vue-cli v3にする
 - link: /diary/#vuepress%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
-  title: <b>Tech Diary</b> &gt; 2017/04/18 &gt; VuePressについて
+  title: <b>Tech Diary</b> &gt; 2018/04/18 &gt; VuePressについて
 
 
 footer: Copyright © 2018 nakanakamu0828

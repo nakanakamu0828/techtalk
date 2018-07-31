@@ -29,6 +29,10 @@ meta:
 
 diaryTitle: 関連日誌
 diaries:
+- link: /diary/2018-07-29.html#php7%E3%81%ABmailparse%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B
+  title: <b>Tech Diary</b> &gt; 2017/07/29 &gt; php7にmailparseをインストールする
+- link: /diary/2018-07-26.html#laravel-relationship-events
+  title: <b>Tech Diary</b> &gt; 2017/07/26 &gt; laravel-relationship-events
 - link: /diary/2018-07-25.html#deployer-circleci%E3%81%A7%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%82%92%E8%87%AA%E5%8B%95%E5%8C%96%E3%81%99%E3%82%8B
   title: <b>Tech Diary</b> &gt; 2017/07/25 &gt; Deployer + CircleCIでデプロイを自動化する
 - link: /diary/2018-07-25.html#laravel%E3%81%AE%E3%83%99%E3%82%B9%E3%83%88%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B9
