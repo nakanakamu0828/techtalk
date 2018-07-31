@@ -1,6 +1,9 @@
 ---
 home: true
 description: 世界を旅して暮らしたい放浪エンジニア日誌
+authorTitle: なかむ🇭🇰Laraveler
+authorLink: https://nakamu.life
+authorimage: "/profile.jpg"
 actionText: To Blog →
 actionLink: /blog/
 features:
@@ -8,8 +11,8 @@ features:
   details: 過去の開発から得たノウハウを提供するためのブログ記事です。
 - title: Tech Diary
   details: 日々の開発を日誌として投稿します。  ブログのように技術をまとめたものではなく、ポエムであったり技術メモを蓄積していくものです。
-- title: About Me
-  details: 筆者のプロフィール/経験の紹介ページ
+- title: Tags
+  details: 過去のブログや日誌をタグ毎にまとめたページです。  
 blogTitle: 新着投稿
 blogText: ブログをもっと見る
 blogLink: /blog/
@@ -26,7 +29,7 @@ blogs:
   link: /blog/2018-04-28-start_vupress.html
   date: 2018/04/28
 
-footer: Copyright © 2018 @nakanakamu0828
+footer: Copyright © 2018.<br>Made with <a href="https://vuepress.vuejs.org/" target="_blank">VuePress</a>, and many more.
 
 githubUrl: https://github.com/nakanakamu0828/techtalk
 twitterUrl: https://twitter.com/nakanakamu0828

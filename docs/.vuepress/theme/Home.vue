@@ -7,6 +7,12 @@
         <p class="description">
           {{ data.tagline || $description || 'Welcome to your VuePress site' }}
         </p>
+        <img :src="$withBase('/profile.jpg')" alt="Nakamu" class="author-image">
+
+        <a v-if="data.authorLink" :href="data.authorLink" class="author-title" target="_blank">{{ data.authorTitle || 'Hello' }}</a>
+        <p v-else class="author-title">{{ data.authorTitle || 'Hello' }}</p>
+
+
         <p class="action" v-if="data.actionText && data.actionLink">
           <NavLink class="action-button" :item="actionLink"/>
         </p>
@@ -31,7 +37,7 @@
       <Content custom/>
     </div>
     <div class="footer" v-if="data.footer">
-      {{ data.footer }}
+      <p v-html="data.footer"></p>
       <p class="sns">
         <a v-if="data.githubUrl" :href="data.githubUrl" target="_blank" class="button is-circle"><i class="fab fa-github"></i></a>
         <a v-if="data.twitterUrl" :href="data.twitterUrl" target="_blank" class="button is-circle"><i class="fab fa-twitter"></i></a>
@@ -77,7 +83,7 @@ export default {
   .hero
     padding: 1rem
     text-align center
-    img
+    img:not(.author-image)
       max-height 280px
       display block
       margin 3rem auto 1.5rem
@@ -86,6 +92,16 @@ export default {
       font-family: Lobster,cursive;
     h1, .description, .action
       margin 1.8rem auto
+    img.author-image
+      border-radius: 50%;
+      width: 10rem;
+      border: 3px solid #ff5f5f
+    .author-title
+      font-size 2rem
+      margin-top 1rem
+      display block
+      color #2c3e50
+      
     .description
       max-width 35rem
       font-size 1.6rem
@@ -148,7 +164,7 @@ export default {
     padding-left 1.5rem
     padding-right 1.5rem
     .hero
-      img
+      img:not(.img.author-image)
         max-height 210px
         margin 2rem auto 1.2rem
       h1
