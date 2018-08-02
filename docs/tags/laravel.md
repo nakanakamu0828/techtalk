@@ -29,6 +29,8 @@ meta:
 
 diaryTitle: 関連日誌
 diaries:
+- link: /diary/2018-08-02.html#laravel%E3%81%A7repogitory%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3%E3%82%92%E4%BD%BF%E3%81%86
+  title: <b>Tech Diary</b> &gt; 2017/08/02 &gt; LaravelでRepogitoryパターンを使う
 - link: /diary/2018-07-29.html#php7%E3%81%ABmailparse%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B
   title: <b>Tech Diary</b> &gt; 2017/07/29 &gt; php7にmailparseをインストールする
 - link: /diary/2018-07-26.html#laravel-relationship-events
