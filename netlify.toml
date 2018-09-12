@@ -1,0 +1,9 @@
+[build]
+  command = "npm run docs:build"
+  publish = "docs/.vuepress/dist/"
+
+[[redirects]]
+  from = "https://techtalk.ml/blog/2018-04-28-start_vupress.html"
+  to = "https://blog.nakamu.life/posts/vuepress"
+  status = 301
+  force = false
