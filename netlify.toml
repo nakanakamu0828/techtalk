@@ -6,4 +6,9 @@
   from = "https://techtalk.ml/blog/2018-04-28-start_vupress.html"
   to = "https://blog.nakamu.life/posts/vuepress"
   status = 301
-  force = false
+
+
+[[redirects]]
+  from = "https://techtalk.ml/blog/2018-05-02-vupress_customize_layout.html"
+  to = "https://blog.nakamu.life/posts/vuepress-layout-customize"
+  status = 301
